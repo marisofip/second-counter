@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contador {
+    background-color: black;
+    text-align: center;
+}
+
+.contador div {
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    line-height: 60px;
+    
+
+}
