@@ -23,6 +23,9 @@ function SecondsCounter(props){
 
 );
 }
+const timeoutId = setTimeout(function(){
+    alert("Han pasado 10 segundos");
+}, 11000);
 
 SecondsCounter.prototype ={
     decimalCuatro: PropTypes.number,
@@ -41,6 +44,7 @@ setInterval(function(){
 //console.log (uno, dos, tres, cuatro);
     initial++; 
 
+    
     //render your react application
     ReactDOM.render(<SecondsCounter 
         decimalUno={uno} decimalDos={dos}  decimalTres={tres} decimalCuatro={cuatro} />, 
